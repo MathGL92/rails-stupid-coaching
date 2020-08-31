@@ -1,0 +1,12 @@
+<div class="chat">
+  <p>"<%= params[:question] %>"</p>
+  <p class="italic">- You</p>
+</div>
+
+<div class="chat answer">
+  <p class="bold">"<%= @answer %>"</p>
+  <p class="italic">- Your coach</p>
+</div>
+
+
+<%= link_to "Ask a new question", ask_path %>

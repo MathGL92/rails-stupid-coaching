@@ -1,0 +1,6 @@
+<p>Ask anything to your stupid coach:</p>
+
+<form action="/answer" method="get" class="form-inline">
+  <input class="form-control" type="text" name="question" placeholder="How can I help you?" value="<%= params[:question] %>">
+  <input type="submit" value="Ask!" class="btn btn-primary">
+</form>
